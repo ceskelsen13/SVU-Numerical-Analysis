@@ -33,6 +33,8 @@ function bisect_method(f,a,b; maxit = 50, tol = 1e-10)
     i = 1               # Initialize counter
     fa = f(a)           # Function value at left end
     p = a +(b-a)/2      # Form is prefered to (a+b)/2
+    
+    # Testing
 
     for i = 1:maxit
 
