@@ -35,9 +35,8 @@ function bisect_method(f,a,b; maxit = 50, tol = 1e-10)
     p = a +(b-a)/2      # Form is prefered to (a+b)/2
 
     for i = 1:maxit
-
-        if fp == 0 || (b-a)/2 < tol
-            fp = f(p)     # check p is the zero or error is with in tolerance
+        fp = f(p)  
+        if fp == 0 || (b-a)/2 < tol    # check p is the zero or error is with in tolerance
             break
         end
 
