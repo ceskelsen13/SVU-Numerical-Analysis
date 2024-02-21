@@ -12,7 +12,6 @@ Soon we will be starting Chapter 2 of Burden, which covers solving equations of 
 Inverse Quadratic Interpolation improves on the secant method by fitting a sideways parabola (i.e. a parabola is $y$) to three successive points of the iteration. The recursion boils down to the following. 
 $$ 
 \begin{align}
-p_{n+1} = & \frac{f_{n-1}f_{n}}{(f_{n-2} - f_{n-1})(f_{n-2}-f_{n})}p_{n-2} + \frac{f_{n-2}f_{n}}{(f_{n-1} - f_{n-2})(f_{n-1}-f_{n})}p_{n-1} + \frac{f_{n-2}f_{n-1}}{(f_{n} - f_{n-2})(f_{n}-f_{n-1})}p_{n}
-\end{align}
+p_{n+1} = & \frac{f_{n-1}f_{n}}{(f_{n-2} - f_{n-1})(f_{n-2}-f_{n})}p_{n-2} + \frac{f_{n-2}f_{n}}{(f_{n-1} - f_{n-2})(f_{n-1}-f_{n})}p_{n-1} \end{align}
 $$
 
