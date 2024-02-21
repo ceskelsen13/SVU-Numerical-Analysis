@@ -19,8 +19,7 @@ $$
 
 $$ 
 \begin{align}
-p_{n+1} = & \frac{f_{n-1}f_{n}}{(f_{n-2} - f_{n-1})(f_{n-2}-f_{n})}p_{n-2} 
-          + \frac{f_{n-2}f_{n}}{(f_{n-1} - f_{n-2})(f_{n-1}-f_{n})}p_{n-1}
+p_{n+1} = & \frac{f_{n-1}f_{n}}{(f_{n-2} - f_{n-1})(f_{n-2}-f_{n})}p_{n-2} + \frac{f_{n-2}f_{n}}{(f_{n-1} - f_{n-2})(f_{n-1}-f_{n})}p_{n-1}
 \end{align}
 $$
 
