@@ -18,6 +18,8 @@ $$
 $$
 
 $$ 
-y = mx+ b
+\begin{align}
+y &= mx+ b
+\end{align}
 $$
 
